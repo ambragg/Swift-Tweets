@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3435B211B0A3754001C7694 /* TweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B201B0A3754001C7694 /* TweetsTableViewController.swift */; };
+		F3435B231B0A3768001C7694 /* VenuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B221B0A3768001C7694 /* VenuesTableViewController.swift */; };
+		F3435B251B0A37EB001C7694 /* SocialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B241B0A37EB001C7694 /* SocialData.swift */; };
+		F3435B271B0A381C001C7694 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B261B0A381C001C7694 /* Requests.swift */; };
+		F3435B291B0A3837001C7694 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B281B0A3837001C7694 /* Constants.swift */; };
 		F3ECF6211B0A2C020071B953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECF6201B0A2C020071B953 /* AppDelegate.swift */; };
 		F3ECF6231B0A2C020071B953 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECF6221B0A2C020071B953 /* FirstViewController.swift */; };
 		F3ECF6251B0A2C020071B953 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECF6241B0A2C020071B953 /* SecondViewController.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3435B201B0A3754001C7694 /* TweetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsTableViewController.swift; sourceTree = "<group>"; };
+		F3435B221B0A3768001C7694 /* VenuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesTableViewController.swift; sourceTree = "<group>"; };
+		F3435B241B0A37EB001C7694 /* SocialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialData.swift; sourceTree = "<group>"; };
+		F3435B261B0A381C001C7694 /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		F3435B281B0A3837001C7694 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F3ECF61B1B0A2C020071B953 /* Sweetr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweetr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3ECF61F1B0A2C020071B953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3ECF6201B0A2C020071B953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +71,9 @@
 		F3ECF6121B0A2C020071B953 = {
 			isa = PBXGroup;
 			children = (
+				F3435B241B0A37EB001C7694 /* SocialData.swift */,
+				F3435B261B0A381C001C7694 /* Requests.swift */,
+				F3435B281B0A3837001C7694 /* Constants.swift */,
 				F3ECF61D1B0A2C020071B953 /* Sweetr */,
 				F3ECF6351B0A2C020071B953 /* SweetrTests */,
 				F3ECF61C1B0A2C020071B953 /* Products */,
@@ -79,12 +92,11 @@
 		F3ECF61D1B0A2C020071B953 /* Sweetr */ = {
 			isa = PBXGroup;
 			children = (
-				F3ECF6201B0A2C020071B953 /* AppDelegate.swift */,
 				F3ECF6221B0A2C020071B953 /* FirstViewController.swift */,
 				F3ECF6241B0A2C020071B953 /* SecondViewController.swift */,
 				F3ECF6261B0A2C020071B953 /* Main.storyboard */,
-				F3ECF6291B0A2C020071B953 /* Images.xcassets */,
-				F3ECF62B1B0A2C020071B953 /* LaunchScreen.xib */,
+				F3435B201B0A3754001C7694 /* TweetsTableViewController.swift */,
+				F3435B221B0A3768001C7694 /* VenuesTableViewController.swift */,
 				F3ECF61E1B0A2C020071B953 /* Supporting Files */,
 			);
 			path = Sweetr;
@@ -93,6 +105,9 @@
 		F3ECF61E1B0A2C020071B953 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3ECF6291B0A2C020071B953 /* Images.xcassets */,
+				F3ECF6201B0A2C020071B953 /* AppDelegate.swift */,
+				F3ECF62B1B0A2C020071B953 /* LaunchScreen.xib */,
 				F3ECF61F1B0A2C020071B953 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,9 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3435B251B0A37EB001C7694 /* SocialData.swift in Sources */,
 				F3ECF6251B0A2C020071B953 /* SecondViewController.swift in Sources */,
+				F3435B211B0A3754001C7694 /* TweetsTableViewController.swift in Sources */,
 				F3ECF6211B0A2C020071B953 /* AppDelegate.swift in Sources */,
+				F3435B231B0A3768001C7694 /* VenuesTableViewController.swift in Sources */,
+				F3435B271B0A381C001C7694 /* Requests.swift in Sources */,
 				F3ECF6231B0A2C020071B953 /* FirstViewController.swift in Sources */,
+				F3435B291B0A3837001C7694 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +433,7 @@
 				F3ECF63E1B0A2C020071B953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3ECF63F1B0A2C020071B953 /* Build configuration list for PBXNativeTarget "SweetrTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +442,7 @@
 				F3ECF6411B0A2C020071B953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
