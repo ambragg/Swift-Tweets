@@ -19,6 +19,11 @@
 		F3ECF62A1B0A2C020071B953 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3ECF6291B0A2C020071B953 /* Images.xcassets */; };
 		F3ECF62D1B0A2C020071B953 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3ECF62B1B0A2C020071B953 /* LaunchScreen.xib */; };
 		F3ECF6391B0A2C020071B953 /* SweetrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECF6381B0A2C020071B953 /* SweetrTests.swift */; };
+		F3FB50351B14B985009991F0 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FB50311B14B985009991F0 /* Fabric.framework */; };
+		F3FB50361B14B985009991F0 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FB50321B14B985009991F0 /* TwitterKit.framework */; };
+		F3FB50371B14B985009991F0 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3FB50331B14B985009991F0 /* TwitterKitResources.bundle */; };
+		F3FB50381B14B985009991F0 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FB50341B14B985009991F0 /* TwitterCore.framework */; };
+		F3FB503A1B14BA1B009991F0 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FB50391B14BA1B009991F0 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		F3ECF6321B0A2C020071B953 /* SweetrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3ECF6371B0A2C020071B953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3ECF6381B0A2C020071B953 /* SweetrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetrTests.swift; sourceTree = "<group>"; };
+		F3FB50311B14B985009991F0 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		F3FB50321B14B985009991F0 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		F3FB50331B14B985009991F0 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		F3FB50341B14B985009991F0 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		F3FB50391B14BA1B009991F0 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FB50351B14B985009991F0 /* Fabric.framework in Frameworks */,
+				F3FB50381B14B985009991F0 /* TwitterCore.framework in Frameworks */,
+				F3FB503A1B14BA1B009991F0 /* Crashlytics.framework in Frameworks */,
+				F3FB50361B14B985009991F0 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +85,7 @@
 		F3ECF6121B0A2C020071B953 = {
 			isa = PBXGroup;
 			children = (
+				F3FB50301B14B961009991F0 /* Frameworks */,
 				F3435B241B0A37EB001C7694 /* SocialData.swift */,
 				F3435B261B0A381C001C7694 /* Requests.swift */,
 				F3435B281B0A3837001C7694 /* Constants.swift */,
@@ -130,6 +145,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3FB50301B14B961009991F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB50391B14BA1B009991F0 /* Crashlytics.framework */,
+				F3FB50311B14B985009991F0 /* Fabric.framework */,
+				F3FB50321B14B985009991F0 /* TwitterKit.framework */,
+				F3FB50331B14B985009991F0 /* TwitterKitResources.bundle */,
+				F3FB50341B14B985009991F0 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +167,7 @@
 				F3ECF6171B0A2C020071B953 /* Sources */,
 				F3ECF6181B0A2C020071B953 /* Frameworks */,
 				F3ECF6191B0A2C020071B953 /* Resources */,
+				F3FB502F1B14B85C009991F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -210,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FB50371B14B985009991F0 /* TwitterKitResources.bundle in Resources */,
 				F3ECF6281B0A2C020071B953 /* Main.storyboard in Resources */,
 				F3ECF62D1B0A2C020071B953 /* LaunchScreen.xib in Resources */,
 				F3ECF62A1B0A2C020071B953 /* Images.xcassets in Resources */,
@@ -224,6 +253,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3FB502F1B14B85C009991F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c5a49a17fb53c18247a02af7234a548f1693d49c 8bcf60eb4728cf1b658f4b8b132f4e8de04e97ec71771a698b2519dab88d6a40";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3ECF6171B0A2C020071B953 /* Sources */ = {
@@ -364,6 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sweetr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Sweetr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
